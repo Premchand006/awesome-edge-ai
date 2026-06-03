@@ -1,0 +1,6 @@
+# URLs (regex, one per line) that the link checker should skip.
+
+# Add flaky-but-valid hosts here if CI ever flags them, e.g.:
+# ^https://twitter\.com/.*
+# ^https://x\.com/.*
+# ^https://www\.linkedin\.com/.*
