@@ -11,7 +11,6 @@ Only authoritative or genuinely useful, currently-maintained resources are liste
 - [Documentation](#documentation)
 - [Papers](#papers)
 - [Other awesome lists](#other-awesome-lists)
-- [Suggested GitHub topics](#suggested-github-topics)
 
 ## Courses
 - [MIT 6.5940 TinyML and Efficient Deep Learning](https://efficientml.ai) - Free, advanced course on quantization, pruning, NAS, and distillation.
@@ -46,15 +45,6 @@ Only authoritative or genuinely useful, currently-maintained resources are liste
 - [qijianpeng/awesome-edge-computing](https://github.com/qijianpeng/awesome-edge-computing) - Actively maintained list of frameworks, simulators, and tools.
 - [crespum/edge-ai](https://github.com/crespum/edge-ai) - Embedded-AI resources, already reflecting the LiteRT rebrand.
 - [alternbits/awesome-cuda-books](https://github.com/alternbits/awesome-cuda-books) - Curated CUDA book list (low maintenance, but canonical titles).
-
-## Suggested GitHub topics
-Add these in Settings then Topics so the repo is discoverable:
-
-```
-awesome  edge-ai  tinyml  on-device-ai  embedded-ai
-quantization  onnx  onnxruntime  tensorrt  openvino
-litert  computer-vision  mlops  roadmap  edge-computing
-```
 
 ---
 
