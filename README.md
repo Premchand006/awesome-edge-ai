@@ -1,19 +1,14 @@
-<!--
-  BEFORE YOU PUBLISH:
-  1. Replace the social-preview image in repo Settings → "Social preview".
-  2. Add the GitHub topics listed in awesome-resources/README.md (Settings → Topics).
--->
-
 <div align="center">
 
 # Awesome Edge AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<img src="https://github.com/Premchand006/awesome-edge-ai/blob/main/edge_ai.jpg"  width="1100" height="500">
 
 ### A complete, beginner-to-advanced roadmap for running AI on real-world devices — with verified, runnable projects.
 
 *Most "awesome" lists are a pile of links. This one is a **path**: eight ordered phases from Linux and tensors to real-time, on-device inference and Physical AI — paired with **sample projects that run as written** (one ships with an offline self-test), **PoCs and real-time use cases by industry**, and **honestly annotated** courses, books, and docs. Built to take you from zero to shipping.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 <br/>
 [![Link Check](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/link-check.yml?label=links)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/link-check.yml)
@@ -241,7 +236,7 @@ Built in the spirit of the [Awesome](https://awesome.re) movement and the open e
 
 ## 📄 License
 
-Prose: **CC BY 4.0**. Code/snippets: **MIT**. See [LICENSE](LICENSE).
+See [LICENSE](LICENSE).
 
 ---
 
