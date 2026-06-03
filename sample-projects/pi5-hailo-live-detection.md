@@ -51,7 +51,7 @@
 
 ## Go further
 - Swap models (pose, segmentation, depth) from the Hailo Model Zoo.
-- On **AI HAT+ 2 (Hailo-10H)**, try a small **on-device LLM/VLM** — the 8 GB on-board RAM makes GenAI feasible. ([hardware](https://github.com/Premchand006/awesome-physical-ai/blob/main/companies/hailo.md))
+- On **AI HAT+ 2 (Hailo-10H)**, try a small **on-device LLM/VLM** — the 8 GB on-board RAM makes GenAI feasible. ([hardware](https://www.raspberrypi.com/documentation/accessories/ai-hat-plus.html))
 - Compile a **custom** model with the Hailo Dataflow Compiler.
 
 ## Troubleshooting

@@ -15,5 +15,5 @@ All notable changes to this repository are documented here (dates `YYYY-MM-DD`).
 - Curated, annotated courses/books/docs; a curated awesome list; a renames-and-deprecations page.
 - CI (awesome-lint + lychee) and contribution scaffolding with a strict sample-project quality bar.
 
-[Unreleased]: https://github.com/Premchand006/awesome-edge-ai/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/Premchand006/awesome-edge-ai/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Premchand006/awesome-edge-ai/commits/main
+[0.1.0]: https://github.com/Premchand006/awesome-edge-ai/tree/v0.1.0
