@@ -1,6 +1,9 @@
 <div align="center">
 
-# Edge AI Field Guide
+# Edge AI Field Guide [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<img src="https://github.com/Premchand006/awesome-edge-ai/blob/main/edge_ai.jpg"  width="1100" height="500">
+
 
 ### A complete, beginner-to-advanced roadmap for running AI on real-world devices — with verified, runnable projects.
 
@@ -70,13 +73,27 @@ The full, detailed path lives in **[roadmap/](roadmap/README.md)**. The short ve
 
 ```mermaid
 flowchart TD
-    P0["Phase 0 - Foundations"] --> P1["Phase 1 - Embedded & TinyML"]
-    P1 --> P2["Phase 2 - Model structures"]
-    P2 --> P3["Phase 3 - Optimization"]
-    P3 --> P4["Phase 4 - Runtimes"]
-    P4 --> P5["Phase 5 - Pipelines"]
-    P5 --> P6["Phase 6 - Deployment & MLOps"]
-    P6 --> P7["Phase 7 - PoCs & Physical AI"]
+
+P0["Phase 0<br/>Foundations"]
+ --> P1["Phase 1<br/>Embedded & TinyML"]
+
+P1
+ --> P2["Phase 2<br/>Model Structures"]
+
+P2
+ --> P3["Phase 3<br/>Optimization"]
+
+P3
+ --> P4["Phase 4<br/>Runtimes"]
+
+P4
+ --> P5["Phase 5<br/>Pipelines"]
+
+P5
+ --> P6["Phase 6<br/>Deployment & MLOps"]
+
+P6
+ --> P7["Phase 7<br/>PoCs & Physical AI"]
 ```
 
 | Phase | Focus | Go to |
