@@ -52,5 +52,5 @@ Better for multi-stream/RTSP and structured event output.
 ## Troubleshooting
 - **Engine build is slow / OOM** → it's normal the first time; close other apps; the Orin Nano shares CPU/GPU memory, so use a small model (`yolo11n`).
 - **No camera** → `ls /dev/video*` and try `source=1`; for CSI cameras follow the kit's CSI instructions.
-- **Old tutorial says 40 TOPS / JetPack 5** → use **JetPack 6.2** for the Super profile. ([why](../renames-and-deprecations.md))
+- **Old tutorial says 40 TOPS / JetPack 5** → use **JetPack 6.2** for the Super profile. ([why](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md))
 - **Low FPS** → confirm you're running the `.engine` (not the `.pt`) and that cooling is active.

@@ -6,18 +6,18 @@
 
 <div align="center">
 
-# Awesome Edge AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Edge AI Field Guide
 
 ### A complete, beginner-to-advanced roadmap for running AI on real-world devices — with verified, runnable projects.
 
-*Most "awesome" lists are a pile of links. This one is a **path**: eight ordered phases from Linux and tensors to real-time, on-device inference and Physical AI — paired with **sample projects that run as written** (one ships with an offline self-test), **PoCs and real-time use cases by industry**, and **honestly annotated** courses, books, and docs. Built to take you from zero to shipping.*
+*Most link collections are a pile of links. This one is a **path**: eight ordered phases from Linux and tensors to real-time, on-device inference and Physical AI — paired with **sample projects that run as written** (one ships with an offline self-test), **PoCs and real-time use cases by industry**, and **honestly annotated** courses, books, and docs. Built to take you from zero to shipping.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 <br/>
+[![Verified by CI](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/selftest.yml?label=sample%20project%3A%20verified%20by%20CI)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/selftest.yml)
 [![Link Check](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/link-check.yml?label=links)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/link-check.yml)
-[![Awesome Lint](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/awesome-lint.yml?label=awesome-lint)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/awesome-lint.yml)
 [![Last Commit](https://img.shields.io/github/last-commit/Premchand006/awesome-edge-ai)](https://github.com/Premchand006/awesome-edge-ai/commits)
 [![Stars](https://img.shields.io/github/stars/Premchand006/awesome-edge-ai?style=social)](https://github.com/Premchand006/awesome-edge-ai/stargazers)
 
@@ -171,7 +171,7 @@ Hand-vetted and annotated by level/cost in **[courses-and-books/](courses-and-bo
 
 ## 🔁 Renames and Deprecations
 
-Don't follow dead tutorials. Full page: **[renames-and-deprecations.md](renames-and-deprecations.md)**.
+Don't follow dead tutorials. The full, canonical page is maintained once, in the flagship repo: **[Renames & Deprecations →](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md)**.
 
 | If a tutorial says… | Do instead |
 |---|---|
@@ -197,9 +197,11 @@ awesome-edge-ai/
 ├── poc-and-use-cases/        # Phase 7: PoCs + real-time use cases by industry
 ├── sample-projects/          # verified, runnable projects (+ classify.py)
 ├── courses-and-books/        # annotated learning resources by phase
-├── awesome-resources/        # curated link collection
-└── renames-and-deprecations.md
+└── awesome-resources/        # curated link collection
 ```
+
+> **Renames & deprecations** are maintained once, in the flagship repo:
+> [awesome-embedded-ai-stack/renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md).
 
 ### Explore by section
 - 🧭 **[Roadmap](roadmap/README.md)** — the ordered path.

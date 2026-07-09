@@ -1,0 +1,53 @@
+name: selftest
+
+# Proves the "runs as written" claim: installs the sample project's pinned deps
+# and runs its offline --selftest on a clean Ubuntu runner across Python versions.
+# No GPU/NPU, no network model download — the selftest exercises the real ONNX
+# Runtime path against a model bundled inside the package.
+#
+# Runs on every push/PR that touches the project, weekly, and on demand.
+# Run the same check by hand:
+#   cd sample-projects/onnxruntime-classify
+#   pip install -r requirements.txt && python classify.py --selftest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sample-projects/onnxruntime-classify/**'
+      - '.github/workflows/selftest.yml'
+  pull_request:
+    paths:
+      - 'sample-projects/onnxruntime-classify/**'
+      - '.github/workflows/selftest.yml'
+  schedule:
+    - cron: '0 7 * * 1'   # Monday 07:00 UTC — catch upstream dependency breakage
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12']
+    defaults:
+      run:
+        working-directory: sample-projects/onnxruntime-classify
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: sample-projects/onnxruntime-classify/requirements.txt
+
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the offline self-test
+        run: python classify.py --selftest

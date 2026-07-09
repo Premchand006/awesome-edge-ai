@@ -10,7 +10,7 @@ Hands-on, **verified, easy-to-run** projects ordered by difficulty. Start with t
 | [Jetson + YOLO detection](jetson-yolo-detection.md) | Intermediate | NVIDIA Jetson | high-FPS detection via TensorRT | 3 → 4 → 5 |
 
 ## Our bar for "verified and easy"
-- **Runs as written** — the flagship project ships with a `--selftest` that checks your environment offline; its helper functions are unit-tested.
+- **Runs as written** — the flagship project ships with a `--selftest` that checks your environment offline; its helper functions are unit-tested. This isn't just a claim: a [GitHub Actions job](../.github/workflows/selftest.yml) installs the pinned deps on a clean Ubuntu runner and runs that self-test on every push and weekly ([![Verified by CI](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/selftest.yml?label=verified%20by%20CI)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/selftest.yml)). On-device results from the community live in the [verifications ledger](../VERIFICATIONS.md).
 - **Copy-paste setup** — one `pip install` line, exact model-download commands, expected output shown.
 - **Heavily commented** — the code explains *why*, not just *what*, so you learn the pattern, not just the recipe.
 - **Portable** — the same flow (load → preprocess → run → post-process) carries across CPU, GPU, and NPU by changing the runtime/Execution Provider.

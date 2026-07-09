@@ -1,0 +1,72 @@
+name: "🔬 Hardware verification report"
+description: "Ran a sample project on real hardware? Report the result so it can join the ledger."
+title: "[verify] <project> on <hardware>"
+labels: ["verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing on real hardware! CI can only prove the CPU path — your on-device
+        report is what makes the hardware claims trustworthy. Accepted reports are added to
+        [VERIFICATIONS.md](../blob/main/VERIFICATIONS.md).
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Zero-hardware image classification (ONNX Runtime)
+        - Raspberry Pi + Hailo live detection
+        - Jetson + YOLO detection
+        - Other (describe below)
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Board / accelerator and memory, e.g. "Jetson Orin Nano Super 8GB" or "Pi 5 + AI HAT+ 2".
+      placeholder: Jetson Orin Nano Super 8GB
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS / driver / JetPack / runtime versions
+      description: e.g. "JetPack 6.2, TensorRT 10.x" or "Raspberry Pi OS Bookworm, HailoRT 4.x".
+      placeholder: JetPack 6.2, TensorRT 10.x
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - "✅ Pass — ran as written"
+        - "⚠️ Pass with changes (note them below)"
+        - "❌ Fail (note the error below)"
+    validations:
+      required: true
+  - type: input
+    id: perf
+    attributes:
+      label: Measured FPS / latency (optional)
+      placeholder: 62 FPS (yolo11n, 640×640) / 12 ms p50
+  - type: input
+    id: date
+    attributes:
+      label: Date tested (YYYY-MM-DD)
+      placeholder: "2026-07-09"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, changes, or error output
+      description: Anything you had to change, plus a link to a log/screenshot if you have one.
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a real result I observed on the hardware above (not a guess).
+          required: true

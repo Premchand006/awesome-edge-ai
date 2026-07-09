@@ -10,7 +10,7 @@ A structured **roadmap** (beginner → advanced) plus **verified sample projects
 - 🛠️ **Fixes/improvements** to an existing project (clearer comments, a bug, a faster path).
 - 🗺️ **Roadmap or explainer improvements** (a clearer analogy, a missing step).
 - 📚 **A high-signal resource** (course, doc, paper, tool) with level/cost noted.
-- 🔁 **A rename/deprecation update** (this field rots fast — see [renames-and-deprecations.md](renames-and-deprecations.md)).
+- 🔁 **A rename/deprecation update** (this field rots fast — see the canonical [renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md)).
 
 ## Quality bar for resources
 1. **Authoritative or genuinely useful**, and currently maintained. Prefer official docs/papers over blog reposts.

@@ -15,7 +15,7 @@ A runtime takes your optimized model and executes it efficiently on a specific t
 ## ONNX Runtime — the portable default
 **[ONNX Runtime](https://onnxruntime.ai/)** runs models in the open **ONNX** format and dispatches work to **Execution Providers (EPs)**: CPU (default), CUDA/TensorRT (NVIDIA), OpenVINO (Intel), QNN (Qualcomm), and more. Train in any framework → export to ONNX → run almost anywhere. This is why the flagship [sample project](../sample-projects/README.md) uses it: it runs on *any* machine with no special hardware.
 
-> ⚠️ The **ArmNN Execution Provider was removed in ONNX Runtime 1.26** — use the CPU EP (with KleidiAI on Arm) or QNN for Qualcomm. See [renames-and-deprecations.md](../renames-and-deprecations.md).
+> ⚠️ The **ArmNN Execution Provider was removed in ONNX Runtime 1.26** — use the CPU EP (with KleidiAI on Arm) or QNN for Qualcomm. See [renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md).
 
 ## LiteRT — mobile, embedded, and microcontrollers
 **[LiteRT](https://ai.google.dev/edge/litert)** (formerly TensorFlow Lite) is Google's on-device runtime. **LiteRT for Microcontrollers** runs in kilobytes on Cortex-M and similar — the TinyML target from [Phase 1](../foundations/README.md). The rebrand did not change the `.tflite` format.

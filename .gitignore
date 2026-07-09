@@ -1,5 +1,21 @@
+# Internal / maintainer-only — not for the public repo
+MANUAL-STEPS.md
+
 # Link checker cache
 .lycheecache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# Downloaded models / images from running sample projects (keep the repo lean)
+sample-projects/**/*.onnx
+sample-projects/**/*.tflite
+sample-projects/**/*.engine
 
 # Node (awesome-lint / markdownlint)
 node_modules/
