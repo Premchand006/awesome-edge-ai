@@ -211,9 +211,6 @@ awesome-edge-ai/
 └── awesome-resources/        # curated link collection
 ```
 
-> **Renames & deprecations** are maintained once, in the flagship repo:
-> [awesome-embedded-ai-stack/renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md).
-
 ### Explore by section
 - 🧭 **[Roadmap](roadmap/README.md)** — the ordered path.
 - 🧱 **[Foundations](foundations/README.md)** — Linux, Python, ML basics, TinyML.

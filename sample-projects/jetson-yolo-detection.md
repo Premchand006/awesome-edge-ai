@@ -45,7 +45,7 @@ Better for multi-stream/RTSP and structured event output.
 - The difference between a quick script (Path A) and a **scalable pipeline** (Path B).
 
 ## Go further
-- Build the [RTSP detection pipeline](README.md) (multi-camera).
+- Build an RTSP multi-camera detection pipeline (a suggested next step; not yet included).
 - Move perception into a robot with **[Isaac ROS](../pipelines/README.md)**.
 - Try **INT8 quantization** for more FPS ([optimization](../model-optimization/README.md)).
 

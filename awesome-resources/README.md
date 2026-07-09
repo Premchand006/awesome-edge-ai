@@ -11,7 +11,6 @@ Only authoritative or genuinely useful, currently-maintained resources are liste
 - [Documentation](#documentation)
 - [Papers](#papers)
 - [Other awesome lists](#other-awesome-lists)
-- [Suggested GitHub topics](#suggested-github-topics)
 
 ## Courses
 - [MIT 6.5940 TinyML and Efficient Deep Learning](https://efficientml.ai) - Free, advanced course on quantization, pruning, NAS, and distillation.

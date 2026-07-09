@@ -34,7 +34,7 @@ Use this as the template for the project's header and structure; mirror [`sample
 2. Run checks locally if you can:
    ```bash
    npx awesome-lint awesome-resources/README.md
-   python -m py_compile sample-projects/**/**.py   # if you added code
+   find sample-projects -name '*.py' -exec python -m py_compile {} +   # if you added code
    lychee --offline . || lychee .
    ```
 3. Use a [Conventional Commits](https://www.conventionalcommits.org/) message, e.g. `feat: add OpenVINO NPU classification project`.

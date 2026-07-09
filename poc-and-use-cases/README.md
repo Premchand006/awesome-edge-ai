@@ -45,13 +45,13 @@ Each PoC names the **problem**, the **approach**, the **roadmap phases** it exer
 - **Problem:** run a small language/vision-language model locally for privacy.
 - **Approach:** INT4-quantized small LLM on **Hailo-10H**, **Jetson**, or **RK3588 (rkllm)**.
 - **Phases:** 2 (efficient transformers) → 3 (INT4 quantization) → 4 (runtime).
-- **Start:** [model-structures](../model-structures/README.md) GenAI section; hardware notes in the sibling **awesome-physical-ai** repo.
+- **Start:** [model-structures](../model-structures/README.md) GenAI section; hardware notes in the sibling **[awesome-physical-ai](https://github.com/Premchand006/awesome-physical-ai)** repo.
 
 ### PoC 6 — Robot perception node (advanced, toward Physical AI)
 - **Problem:** give a robot real-time perception that planning/control can use.
 - **Approach:** **ROS 2** perception node (detection/segmentation) accelerated by **Isaac ROS / NITROS**; step toward a **VLA policy**.
 - **Phases:** 4 → 5 (ROS 2) → 7 (Physical AI).
-- **Start:** [pipelines](../pipelines/README.md) ROS 2 section; policies/world-models in **awesome-physical-ai**.
+- **Start:** [pipelines](../pipelines/README.md) ROS 2 section; policies/world-models in **[awesome-physical-ai](https://github.com/Premchand006/awesome-physical-ai)**.
 
 ## From PoC to production
 A PoC proves feasibility; production adds the [deployment & MLOps](../deployment-and-mlops/README.md) layer — containerization, OTA updates, monitoring, and a retraining loop. The same real-time use cases above become products once that scaffolding is in place.

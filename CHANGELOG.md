@@ -15,5 +15,9 @@ All notable changes to this repository are documented here (dates `YYYY-MM-DD`).
 - Curated, annotated courses/books/docs; a curated awesome list; a renames-and-deprecations page.
 - CI (awesome-lint + lychee) and contribution scaffolding with a strict sample-project quality bar.
 
+### Changed
+
+- The **renames-and-deprecations page** is no longer maintained in this repo; it now lives canonically in the flagship [awesome-embedded-ai-stack](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md) repo and is linked cross-repo. This repo keeps a short quick-reference table only.
+
 [Unreleased]: https://github.com/Premchand006/awesome-edge-ai/commits/main
 [0.1.0]: https://github.com/Premchand006/awesome-edge-ai/tree/v0.1.0
