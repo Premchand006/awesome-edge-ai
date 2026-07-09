@@ -1,9 +1,3 @@
-<!--
-  BEFORE YOU PUBLISH:
-  1. Replace the social-preview image in repo Settings → "Social preview".
-  2. Add the GitHub topics listed in awesome-resources/README.md (Settings → Topics).
--->
-
 <div align="center">
 
 # Edge AI Field Guide
@@ -19,7 +13,7 @@
 [![Verified by CI](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/selftest.yml?label=sample%20project%3A%20verified%20by%20CI)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/selftest.yml)
 [![Link Check](https://img.shields.io/github/actions/workflow/status/Premchand006/awesome-edge-ai/link-check.yml?label=links)](https://github.com/Premchand006/awesome-edge-ai/actions/workflows/link-check.yml)
 [![Last Commit](https://img.shields.io/github/last-commit/Premchand006/awesome-edge-ai)](https://github.com/Premchand006/awesome-edge-ai/commits)
-[![Stars](https://img.shields.io/github/stars/Premchand006/awesome-edge-ai?style=social)](https://github.com/Premchand006/awesome-edge-ai/stargazers)
+[![Stars](https://img.shields.io/github/stars/Premchand006/awesome-edge-ai?style=social)](https://github.com/Premchand006/awesome-edge-ai)
 
 </div>
 
