@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this guide or its sample projects in teaching or research, please cite it as below."
+title: "Edge AI Field Guide: A Beginner-to-Advanced Roadmap for TinyML and On-Device AI"
+type: software
+authors:
+  - name: "Prem Chand"
+  - name: "awesome-edge-ai contributors"
+repository-code: "https://github.com/Premchand006/awesome-edge-ai"
+url: "https://premchand006.github.io/awesome-edge-ai/"
+abstract: >-
+  An 8-phase, beginner-to-advanced curriculum for edge AI and Physical AI:
+  foundations, TinyML, efficient model architectures, quantization/pruning/distillation,
+  inference runtimes (ONNX Runtime, LiteRT, TensorRT, OpenVINO, RKNN), real-time
+  pipelines (GStreamer, DeepStream, ROS 2), edge MLOps, and industry PoCs, with
+  verified runnable sample projects.
+keywords:
+  - edge-ai
+  - tinyml
+  - on-device-ai
+  - quantization
+  - onnxruntime
+  - tensorrt
+  - openvino
+  - roadmap
+license: CC-BY-4.0
+version: 0.1.0
+date-released: "2026-06-03"

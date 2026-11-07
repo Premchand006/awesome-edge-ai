@@ -2,7 +2,7 @@
 
 # Edge AI Field Guide [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<img src="https://github.com/Premchand006/awesome-edge-ai/blob/main/edge_ai.jpg"  width="1100" height="500">
+<img src="edge_ai.jpg" alt="Edge AI Field Guide: a beginner-to-advanced roadmap for running AI on real-world devices, from TinyML to real-time on-device inference" width="100%">
 
 
 ### A complete, beginner-to-advanced roadmap for running AI on real-world devices — with verified, runnable projects.
@@ -234,7 +234,8 @@ Look for [`good first issue`](https://github.com/Premchand006/awesome-edge-ai/la
 ## 📞 Support and Community
 
 - 🐛 **Issues** — propose a project, suggest a resource, or report a dead link/stale tutorial (templates provided).
-- 💡 **Discussions / PRs** — improve the roadmap or add a PoC; see [CONTRIBUTING.md](CONTRIBUTING.md).
+- 💡 **[Discussions](https://github.com/Premchand006/awesome-edge-ai/discussions)** — ask questions, share what you built, or propose a roadmap change. **PRs** — see [CONTRIBUTING.md](CONTRIBUTING.md).
+- 🌐 **Website** — the whole guide as a searchable site: **[premchand006.github.io/awesome-edge-ai](https://premchand006.github.io/awesome-edge-ai/)**.
 - 🔁 **Found something outdated?** — in a field this fast, fixing a stale step is the most valuable contribution you can make.
 
 ---
