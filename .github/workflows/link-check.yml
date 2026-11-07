@@ -35,7 +35,9 @@ jobs:
             --cache
             --max-cache-age 1d
             --no-progress
-            --max-retries 2
+            --max-retries 4
+            --retry-wait-time 5
+            --timeout 45
             --accept 200,201,202,203,204,206,403,429
             "./**/*.md"
           output: ./lychee-report.md

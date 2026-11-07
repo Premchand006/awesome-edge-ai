@@ -46,4 +46,4 @@ Only authoritative or genuinely useful, currently-maintained resources are liste
 - [crespum/edge-ai](https://github.com/crespum/edge-ai) - Embedded-AI resources, already reflecting the LiteRT rebrand.
 - [alternbits/awesome-cuda-books](https://github.com/alternbits/awesome-cuda-books) - Curated CUDA book list (low maintenance, but canonical titles).
 
-*Found a great resource or a dead link? [Open a PR](../CONTRIBUTING.md).*
+*Found a great resource or a dead link? [Open a PR](https://github.com/Premchand006/awesome-edge-ai/pulls).*

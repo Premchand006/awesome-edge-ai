@@ -30,5 +30,7 @@ Thumbs.db
 
 # Build artifacts (if you later render the site)
 _site/
+/_site_src/
+/site/
 .cache/
 dist/

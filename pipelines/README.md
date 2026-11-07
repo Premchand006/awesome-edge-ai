@@ -22,7 +22,7 @@ flowchart LR
 For robots, perception lives inside **[ROS 2](https://docs.ros.org/)**: nodes communicate over topics, and perception nodes publish detections/poses that planning and control consume.
 - **NVIDIA Isaac ROS** provides GPU-accelerated ROS 2 packages; **NITROS** enables zero-copy transport between them for low latency.
 
-> ⚠️ **Pick an LTS ROS 2 release for production.** Current **Kilted Kaiju** (May 2025) is non-LTS; the most recent shipped LTS is **Jazzy Jalisco**; **Lyrical Luth** is the scheduled next LTS (~May 2026). See [renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md).
+> ⚠️ **Pick an LTS ROS 2 release for production.** The current LTS is **Lyrical Luth** (released May 22, 2026; supported to May 2031; Tier 1 on Ubuntu 26.04). **Jazzy Jalisco** (LTS, to 2029) remains a safe choice on Ubuntu 24.04. **Kilted Kaiju** is non-LTS and reaches EOL in Nov 2026 — don't start new work on it. See [renames-and-deprecations.md](https://github.com/Premchand006/awesome-embedded-ai-stack/blob/main/renames-and-deprecations.md).
 
 ## The full edge-vision pipeline
 ```mermaid
