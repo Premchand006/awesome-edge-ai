@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  {% if page and page.is_homepage %}
+    <title>Edge AI Field Guide: Roadmap for TinyML &amp; On-Device AI, with Runnable Projects</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block extrahead %}
+  {% if page %}
+    {% set title = config.site_name if page.is_homepage else page.title ~ " - " ~ config.site_name %}
+    {% set description = page.meta.description or config.site_description %}
+    {% set image = config.site_url ~ "assets/social-preview.png" %}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.site_name }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ page.canonical_url }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ image }}">
+    {% if page.is_homepage %}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ config.site_name }}",
+        "url": "{{ config.site_url }}",
+        "description": {{ config.site_description | tojson }},
+        "inLanguage": "en",
+        "license": "https://creativecommons.org/licenses/by/4.0/"
+      }
+      </script>
+    {% endif %}
+  {% endif %}
+{% endblock %}
